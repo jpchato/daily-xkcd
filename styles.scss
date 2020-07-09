@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+$primary-color: red;
+
+body {
+    padding: 20px 20px 60px;
+    margin: 0;
+    color: $primary-color;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@tailwind utilities;

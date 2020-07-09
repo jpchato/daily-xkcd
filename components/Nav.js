@@ -1,8 +1,8 @@
 import Link from 'next/link'
-
+import styles from './nav.module.scss'
 function Nav() {
     return (
-        <nav>
+        <nav className={styles.nav}>
         <ul>
             <li>
                 <Link href="/">
