@@ -10,29 +10,29 @@ function Home(props) {
             <img src = {props.comic.img} alt={props.comic.alt}  />
             <Footer comicNum={props.comic.num}/>
         
-        <style jsx>{`
+        {/* <style jsx>{`
             .container{
                 margin: 20px;
                 padding: 20px;
                 border: 1px solid #DDD;
             }
         `}
-        </style>
+        </style> */}
         </div>
     )
 }
 
-function ComicItem(props) {
-    return (
-        <li key={props.comic.id}>
-            <Link href="/comics/[id]" as={`/snacks/${props.comic.id}`}>
-                <a>
-                    {props.comic.name}
-                </a>
-            </Link>
-        </li>
-    )
-}
+// function ComicItem(props) {
+//     return (
+//         <li key={props.comic.id}>
+//             <Link href="/comics/[id]" as={`/comics/${props.comic.id}`}>
+//                 <a>
+//                     {props.comic.name}
+//                 </a>
+//             </Link>
+//         </li>
+//     )
+// }
 
 export default Home
 
