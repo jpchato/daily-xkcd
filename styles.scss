@@ -1,13 +1,41 @@
 @tailwind base;
 @tailwind components;
 
-$primary-color: red;
+$primary-color: salmon;
 
 body {
     padding: 20px 20px 60px;
-    margin: 0;
+    margin: auto;
     color: $primary-color;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: teal;
+    width: fit-content;
+    h1 {
+        text-align: center;
+        font-size: large;
+    }
+    h2 {
+        text-align: center;
+    }
+    img {
+        align-items: center;
+    }
+
+}
+
+footer {
+    border: 1px solid lightblue;
+    margin-top: 10px;
+    h2 {
+        text-align: center;
+    }
+    li {
+        display: inline;
+        margin: 5px;
+    }
+    ul {
+        text-align: center;
+    }
 
 }
 

@@ -1,3 +1,12 @@
 .nav {
-    border: 1px solid green;
+    border: 1px solid lightblue;
+    li {
+        display: inline;
+        margin: 5px;
+    }
+    ul {
+        text-align: center;
+    }
+    
 }
+
