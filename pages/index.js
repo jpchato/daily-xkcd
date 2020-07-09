@@ -6,18 +6,9 @@ function Home(props) {
         <div className="container">
             <Nav />
             <h1>XKCD Comics Home</h1>
-            <h2> {props.comic.title} </h2>  
+            <h2> Title: {props.comic.title} </h2>  
             <img src = {props.comic.img} alt={props.comic.alt}  />
             <Footer comicNum={props.comic.num}/>
-        
-        {/* <style jsx>{`
-            .container{
-                margin: 20px;
-                padding: 20px;
-                border: 1px solid #DDD;
-            }
-        `}
-        </style> */}
         </div>
     )
 }
